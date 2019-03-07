@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="paneLoginToEmail" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginToEmail">
+   <children>
+      <Button layoutX="205.0" layoutY="221.0" mnemonicParsing="false" onAction="#loginInEmail" prefHeight="33.0" prefWidth="156.0" text="Połacz się z e-mailem" />
+      <TextField fx:id="loginEmail" layoutX="199.0" layoutY="117.0" prefHeight="33.0" prefWidth="168.0" promptText="login" />
+      <PasswordField fx:id="passwordEmail" layoutX="199.0" layoutY="161.0" prefHeight="33.0" prefWidth="168.0" promptText="haslo" />
+      <Label fx:id="exceptionConnectionWithDatabase" layoutX="205.0" layoutY="200.0" textFill="#b90606" />
+      <Label layoutX="200.0" layoutY="95.0" prefHeight="17.0" prefWidth="201.0" text="Połącz się z emailem:" />
+   </children>
+</AnchorPane>

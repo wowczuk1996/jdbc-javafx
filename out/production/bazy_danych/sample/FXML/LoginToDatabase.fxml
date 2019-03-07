@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginToDatabase">
+   <children>
+      <Button fx:id="zaloguj" layoutX="200.0" layoutY="266.0" mnemonicParsing="false" onAction="#connecting" prefHeight="37.0" prefWidth="149.0" text="Zaloguj" />
+      <PasswordField fx:id="haslo" layoutX="200.0" layoutY="226.0" promptText="hasło" text="29561" />
+      <TextField fx:id="port" layoutX="200.0" layoutY="188.0" promptText="port" text="5434" />
+      <TextField fx:id="ip" layoutX="200.0" layoutY="146.0" promptText="ip" text="195.150.230.210" />
+      <TextField fx:id="login" layoutX="200.0" layoutY="106.0" promptText="login" text="2018_wowczuk_krzysztof" />
+      <Label fx:id="sqlException" layoutX="200.0" layoutY="83.0" prefHeight="17.0" prefWidth="35.0" textFill="#bc0000" />
+   </children>
+</AnchorPane>
